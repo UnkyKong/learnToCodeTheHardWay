@@ -1,0 +1,14 @@
+# Here's some new starnge stuff, remember type it exactly.
+# Setting up the variables
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+# Inserting the variables into strings 
+puts "Here are the days: #{days}"
+puts "Here are the months: #{months}"
+# Learning the quote character %q{}
+puts %q{
+    There's something going on here.
+    With these weird quote chars.
+    We'll be able to type as much as we like. 
+    Even 4 lines if we want, or 5, or 6.
+}

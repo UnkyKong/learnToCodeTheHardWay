@@ -1,0 +1,6 @@
+Use ''' when you need a multi-line string that contains #{} formatting, but you don't want them to be processed yet or at all.???
+what are \a (bel), 
+\f formfeed 
+\r Carriage Return 
+\ooo octo value ooo and \xhh used for?
+why does "#{}" work when '#{}' does not?

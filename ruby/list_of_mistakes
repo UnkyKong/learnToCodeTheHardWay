@@ -7,3 +7,19 @@ R, expecting '}'
 ex8.rb:5:in `<main>': undefined method `%' for
  nil:NilClass (NoMethodError)
   on line 5  and 6 forgot to type out the variable formatter.
+
+ex.9.rb:4:in  I used / instead of \ for the newline \n character
+
+ex.12 misspelled number
+
+ex14.rb:16:in `<main>': undefined local variab
+le or method `stdin' for main:Object (NameErro
+r)
+Did you mean?  String
+     forgot the $ when typing $stdin.gets.chomp
+ex14 changed prompt to contain #{user_name} had to go back and change '#{}' to "#{}" 
+
+ex15.rb:1:in `<main>': uninitialized constant
+ARVG (NameError)
+Did you mean?  ARGV
+     misspelled ARGV.
