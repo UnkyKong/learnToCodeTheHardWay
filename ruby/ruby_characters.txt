@@ -1,0 +1,61 @@
+Ruby words and symbols
+
+# = creates a comment
+puts = (short for put string) output that calls print on each string with a newline character at the end of it.
+print =output that displays a string without a newline character.
+" " = double quotes identifies a string. enables enables escape characters and string interpolation.
+' ' = single quotes identifies a string
+#{} = sting interpolation.  allows you to insert a variable or function into a string.
+%{} = percent notation 
++ = plus sign, used for addition
+- = minus sign, used for subtraction
+* = asterisk used for multiplication
+/ = forward slash used for division
+% = modulus used to get the remainder of division. 
+> = greater then generates a boolean
+< = less then generates a boolean
+>= = greater then or equal too generates a boolean
+<= = less then or equal too generates a boolean
+"variable_name =" = creates a variable set to equals
+true = boolean representing the statement is true
+false = boolean representing a false statement 
+\n = newline character 
+\t = tab character 
+\' = escape character that allows a single quote to be used in a string
+\" = escape character that allows a double quote to be used in a string
+\\ = escape character that allows a backslash to be used in a string
+\b = backspace character
+\r = Carriage Return character.  moves the cursor to the beginning of a line with out moving downward
+\a = bel character.  creates an audible sound
+\f = form feed character. advances downwards to the next page.  essentially a page break
+\v = vertical tab.  moves down a line
+\uxxxx = 16 bit hex code.  used to insert a symbol based on the 4 digit hex code 
+\xhh = used to generate a symbol based on the two digit hex code
+\ooo = used to generate a symbol with the octo bit 3 digits.
+""" """ = allows to create a multiple line string.
+''' ''' = same as """ only does not allow string interpolation or escape sequences.
+%q{} = lower case q is for single quote string.  Capital Case Q is used for double quote stings
+gets.chomp = gets input from the user and then chomps the last keystroke (enter) off the string. 
+.to_f = turns it into a floating integer
+.to_i = turns it into a fixnum integer
+.to_s = turns it into a string
+.to_a = turns it into an array 
+ARGV = Argument variable used when calling a script with an argument.
+ARGV.first = used when only one script argument is used.
+$stdin.gets.chomp = standard input that gets user input and omits the last character.
+File.open or open() = opens a file.
+open('filename', 'w') = opens a file in write mode
+File.read = reads the file, displays it for the user to read.
+File.write = writes to the selected file.
+File.close = closes the file.  good practice for cleaning up.  potential memory leak
+$stdin.gets = standard input that gets a user input.  Good for allowing a user to continue or exit before making a mistake.
+.length = get string bit length.
+File.exists? = checks to see if a file exists and returns a boolean.
+def = define, used to create a function.
+end = ends a function.
+function(a, b) = function syntax that operates two arguments to be used by the function.
+File.seek = finds a location in a file. seek(0) returns to the beginning of a file. 
+rewind = returns to the beginning of a line. 
+=+ = a contraction that takes the variable then adds something to the variable.
+return = returns the resultant to a variable in a function. turns a function into a temporary variable. 
+File.foreach = this method opens a file and hands each line of the file to the block
