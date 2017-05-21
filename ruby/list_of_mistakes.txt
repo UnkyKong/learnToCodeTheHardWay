@@ -1,0 +1,52 @@
+ex8.rb:10: syntax error, unexpected tIDENTIFIE
+R, expecting '}'
+    second: "that you could type up right."
+          ^
+  on line 10, forgot commas between first, second, third and fourth
+
+ex8.rb:5:in `<main>': undefined method `%' for
+ nil:NilClass (NoMethodError)
+  on line 5  and 6 forgot to type out the variable formatter.
+
+ex.9.rb:4:in  I used / instead of \ for the newline \n character
+
+ex.12 misspelled number
+
+ex14.rb:16:in `<main>': undefined local variab
+le or method `stdin' for main:Object (NameErro
+r)
+Did you mean?  String
+     forgot the $ when typing $stdin.gets.chomp
+ex14 changed prompt to contain #{user_name} had to go back and change '#{}' to "#{}" 
+
+ex15.rb:1:in `<main>': uninitialized constant
+ARVG (NameError)
+Did you mean?  ARGV
+     misspelled ARGV.
+
+ex16.rb:26:in `<main>': undefined local variab
+le or method `linn2' for main:Object (NameErro
+r)
+Did you mean?  line2
+   doing the study drill I misspelled line
+
+ex17 forgot to type exist in the string.  It did not make sense for the user.
+
+ex19a.rb:32:in `+': no implicit conversion of Fixnum into String (TypeError)
+	from ex19a.rb:32:in `<main>'
+  added .to_i to the $stdin.gets.chomp to make them integers since gets.chomp gets a string
+
+ex19a.rb:32:in `+': String can't be coerced into Fixnum (TypeError)
+	from ex19a.rb:32:in `<main>'
+ ARGV creats a string.  had to convert strings into integers using.to_i
+
+ ex21.rb:34:in `<main>': undefined method `age'
+ for main:Object (NoMethodError)
+   typed age instead of add
+
+ex21.rb:37: syntax error, unexpected end-of-in
+put, expecting ')'
+puts "That becomes: #{what}. Can you do it by
+#{hand} hand?"
+  had an extra ( in my formula.
+hand = 4461 (got my order backwards.)
