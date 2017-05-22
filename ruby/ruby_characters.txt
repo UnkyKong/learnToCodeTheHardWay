@@ -59,3 +59,34 @@ rewind = returns to the beginning of a line.
 =+ = a contraction that takes the variable then adds something to the variable.
 return = returns the resultant to a variable in a function. turns a function into a temporary variable. 
 File.foreach = this method opens a file and hands each line of the file to the block
+.reverse = reverse an object
+.upcase = capitalizes all letters
+.downcase = lowercases all letters
+.swapcase = makes lower, capital and capital, lower
+.capitalize = will capitalize the first letter of a string.
+.center = centers a string within a number of spaces using an argument.
+.ljust = will align text to the left
+.rjust = will align text to the right
+== = equal to?
+= = assign to.
+** = exponential.
+.abs = absolute value.
+rand = random number
+srand = seed random used to reproduce a random sequence.
+Math::PI = 3.14...... PI
+Math::E = 2.71.....E 
+Math.cos = cosine
+Math.tan = tangent
+Math.log = logarithmic
+Math.sqrt = square root
+while = loop that continues for as long as its command is true
+if else = branching terms. 
+elsif = used when there are more then 2 branches.
+or = logical operator best if used with parentheses
+and = logical operator best if used with parentheses
+not = logical operator best if used with parentheses
+<<HEREDOC = here document.  used for creating a long string or document.  closed by ending with opening variable.
+! = not
+!= = not equals.
+&& = and
+|| = or

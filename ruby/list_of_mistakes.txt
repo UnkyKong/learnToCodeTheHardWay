@@ -50,3 +50,63 @@ puts "That becomes: #{what}. Can you do it by
 #{hand} hand?"
   had an extra ( in my formula.
 hand = 4461 (got my order backwards.)
+
+ex24.rb:26:in `secret_formula': undefined loca
+l variable or method `jelly_beans' for main:Ob
+ject (NameError)
+Did you mean?  jell_beans
+  left the y off of jelly when I assigned the first variable..
+
+ex26.rb:77: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+beans, jars crates = secret_formula(start_point)
+                  ^
+   missed a comma between jars and crates.
+  
+ex26.rb:15:in `<module:Ex25>': undefined local variable or method `words' for Ex25:Module (NameError)
+Did you mean?  words
+               word
+  missed an 'e' in def. 
+ex26.rb:93: syntax error, unexpected end-of-input, expecting keyword_end
+Ex25.print_first_and_last_sorted(sentence)
+                                          ^
+    left on an end at the end of the module
+
+ex26.rb:77:in `<module:Ex25>': undefined method `secret_formula' for Ex25:Module (NoMethodError)
+        from ex26.rb:1:in `<main>'
+
+ex26.rb:95: syntax error, unexpected keyword_end, expecting end-of-input
+  put the end in the wrong place, original placement at the end of the script. moved to the end of the module.  left the incorrect one.
+
+ex26.rb:71:in `secret_formula': undefined local variable or method `jelly_beans' for main:Object (NameError)
+Did you mean?  jelly_bens
+        from ex26.rb:78:in `<main>'
+  missed a missing 'a'
+
+ex26.rb:73:in `secret_formula': undefined local variable or method `crates' for main:Object (NameError)
+Did you mean?  crate
+        from ex26.rb:78:in `<main>'
+  missed an 's'
+
+ex26.rb:81:in `<main>': undefined method `beans' for main:Object (NoMethodError)
+  over looked a duplicate variable.
+
+ex26.rb:6:in `break_words': undefined local variable or method `word' for Ex25:Module (NameError)
+Did you mean?  words
+        from ex26.rb:86:in `<main>'
+  missed an s in the return variable.
+
+ex26.rb:34:in `print_first_and_last': undefined local variable or method `sentenc' for Ex25:Module (NameError)
+Did you mean?  sentence
+        from ex26.rb:93:in `<main>'
+  missed an e
+
+ex26.rb:35:in `print_first_and_last': undefined local variable or method `word' for Ex25:Module (NameError)
+Did you mean?  words
+        from ex26.rb:93:in `<main>'
+missed an s
+
+ex26.rb:42:in `print_first_and_last_sorted': undefined method `print_fist_word' for Ex25:Module (NoMethodError)
+Did you mean?  print_first_word
+               print_last_word
+        from ex26.rb:94:in `<main>'
+  missed an r
