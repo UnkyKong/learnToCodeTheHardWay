@@ -56,7 +56,7 @@ end = ends a function.
 function(a, b) = function syntax that operates two arguments to be used by the function.
 File.seek = finds a location in a file. seek(0) returns to the beginning of a file. 
 rewind = returns to the beginning of a line. 
-=+ = a contraction that takes the variable then adds something to the variable.
+=+ = "increment by" a contraction that takes the variable then adds something to the variable.
 return = returns the resultant to a variable in a function. turns a function into a temporary variable. 
 File.foreach = this method opens a file and hands each line of the file to the block
 .reverse = reverse an object
@@ -90,3 +90,14 @@ not = logical operator best if used with parentheses
 != = not equals.
 && = and
 || = or
+[] = an Array,  use comma's to separate items.
+(..) = range operator including second number
+(...) = range operator excluding second number.
+for = starts a for loop.
+in = 
+do = start something
+.each = for each item in the array.  do ... end loop or { ..... }
+.push = adds an item to the end of an array
+While-loops = run for as long as a statement is true.
+variable[x] = call the value held by an array at index x
+=~ = match operator, can be used to match a string with an expression. 

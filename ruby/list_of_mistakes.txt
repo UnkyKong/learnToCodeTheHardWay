@@ -110,3 +110,19 @@ Did you mean?  print_first_word
                print_last_word
         from ex26.rb:94:in `<main>'
   missed an r
+
+ex30.rb:6:in `<main>': undefined local variabl
+e or method `people' for main:Object (NameErro
+r)
+Did you mean?  poeple
+  spelled the intial variable wrong.
+
+ex31.rb:16: syntax error, unexpected ==
+    elsif  == "2"
+             ^
+  left out the variable.
+
+ex33.rb:18: syntax error, unexpected keyword_e
+nd, expecting end-of-input
+
+ needed to include the loop variables inside the function.
