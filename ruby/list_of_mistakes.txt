@@ -126,3 +126,16 @@ ex33.rb:18: syntax error, unexpected keyword_e
 nd, expecting end-of-input
 
  needed to include the loop variables inside the function.
+
+ ex39.rb:4: syntax error, unexpected tSTRING_BEG
+, expecting '}'
+  'Florida' => 'FL'
+   ^
+missed the comma's between the hash items.
+
+ex39.rb:28:in `<main>': undefined local variabl
+e or method `states' for main:Object (NameError
+)
+Did you mean?  state
+               stats
+misspelled state.
